@@ -27,6 +27,7 @@ module.exports = () => {
       ],
     },
     output: {
+      globalObject: 'this',
       path: resolve(__dirname, "dist"),
       filename: "index.js",
       library: "react-clean-carousel-library",
