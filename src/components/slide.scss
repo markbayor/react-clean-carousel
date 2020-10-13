@@ -1,0 +1,27 @@
+.c-slide {
+  display: flex;
+  height: fit-content;
+  position: relative;
+  height: 85vh;
+  // animation: inFromLeft 3s infinite;
+
+  * {
+    z-index: 30;
+  }
+
+  &__img {
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+  }
+}
+
+@keyframes inFromLeft {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}

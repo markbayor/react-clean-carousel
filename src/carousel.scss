@@ -1,0 +1,32 @@
+.c-carousel {
+  position: relative;
+
+  &--verylarge {
+    width: 100rem;
+    height: 40rem;
+  }
+
+  &--large {
+    width: 98vw;
+    height: 41vw;
+  }
+
+  &--medium {
+    width: 77vw;
+    height: 33vw;
+  }
+
+  &--small {
+    width: 58vw;
+    height: 25vw;
+  }
+
+  &--verysmall {
+    width: 45vw;
+    height: 19vw;
+  }
+
+  &__inner {
+    position: relative;
+  }
+}

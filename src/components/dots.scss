@@ -1,0 +1,31 @@
+.c-dots {
+  z-index: 5;
+  position: absolute;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 85%;
+
+  &__dot {
+    margin: 1rem;
+    padding: .3rem;
+    height: .7rem;
+    width: .7rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: solid 3px transparent;
+    transition: all .2s;
+  }
+
+  .active {
+    background-color: rgba(255, 255, 255, 0.586);
+    border: solid 3px white;
+    transition: all .2s;
+  }
+}
