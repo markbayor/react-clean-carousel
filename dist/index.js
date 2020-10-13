@@ -7,7 +7,7 @@
 		exports["react-clean-carousel-library"] = factory(require("react"));
 	else
 		root["react-clean-carousel-library"] = factory(root["React"]);
-})(global, function(__WEBPACK_EXTERNAL_MODULE_react__) {
+})(window, function(__WEBPACK_EXTERNAL_MODULE_react__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
