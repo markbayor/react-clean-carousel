@@ -1,3 +1,5 @@
+# STILL IN PROGRESS. 
+
 # react-clean-carousel
 
 A simple carousel component with navigation and formattable styling.

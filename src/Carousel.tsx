@@ -1,6 +1,5 @@
 // @ts-ignore
 import React, { useEffect, useState } from 'react'
-import ReactDOM from 'react-dom';
 import { Arrows } from './components/Arrows'
 import { Dots } from './components/Dots'
 import { Slide } from './components/Slide'
