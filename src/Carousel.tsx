@@ -10,7 +10,7 @@ type size = 'verylarge' | 'large' | 'medium' | 'small' | 'verysmall'
 
 interface CarouselProps {
   size: size;
-  children: typeof Slide[];
+  children: typeof Slide[] | any;
   autoplay?: boolean;
   autoplayIntervalTime?: number;
 
