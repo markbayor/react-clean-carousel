@@ -1,6 +1,6 @@
 {
   "name": "react-clean-carousel",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "main": "./dist/index.js",
   "license": "MIT",
   "devDependencies": {
@@ -37,7 +37,7 @@
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "build": "webpack --mode=development",
+    "build": "webpack --mode=development && tsc --declaration --emitDeclarationOnly",
     "test": "jest"
   },
   "files": [
