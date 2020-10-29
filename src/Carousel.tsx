@@ -26,7 +26,7 @@ interface CarouselProps {
   dotStyle?: React.CSSProperties;
 }
 
-const Carousel = ({ size = 'large', children, arrowsNav, dotsNav, autoplay = true, autoplayIntervalTime = 5000,
+const Carousel = ({ size = 'large', children, arrowsNav = true, dotsNav = true, autoplay = true, autoplayIntervalTime = 5000,
   mainStyle,
   innerStyle,
   arrowsContainerStyle,

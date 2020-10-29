@@ -59,7 +59,7 @@ module.exports = () => {
       new HtmlWebpackPlugin({
         template: resolve('./index.html'),
       }),
-      new MiniCssExtractPlugin()
+      new MiniCssExtractPlugin(),
     ]
   };
 };

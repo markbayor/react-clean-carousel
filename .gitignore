@@ -2,3 +2,4 @@ node_modules
 .storybook
 stories
 index.html
+dist/tsconfig.json

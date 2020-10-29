@@ -133,8 +133,10 @@ var Carousel = function Carousel(_ref) {
   var _ref$size = _ref.size,
       size = _ref$size === void 0 ? 'large' : _ref$size,
       children = _ref.children,
-      arrowsNav = _ref.arrowsNav,
-      dotsNav = _ref.dotsNav,
+      _ref$arrowsNav = _ref.arrowsNav,
+      arrowsNav = _ref$arrowsNav === void 0 ? true : _ref$arrowsNav,
+      _ref$dotsNav = _ref.dotsNav,
+      dotsNav = _ref$dotsNav === void 0 ? true : _ref$dotsNav,
       _ref$autoplay = _ref.autoplay,
       autoplay = _ref$autoplay === void 0 ? true : _ref$autoplay,
       _ref$autoplayInterval = _ref.autoplayIntervalTime,
@@ -219,6 +221,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _arrows_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./arrows.scss */ "./src/components/arrows.scss");
+// @ts-ignore
 
 
 

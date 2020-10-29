@@ -23,5 +23,12 @@
         "src/components/*"
       ]
     }
-  }
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "stories",
+    "index.html"
+  ]
 }
