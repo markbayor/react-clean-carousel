@@ -3,6 +3,7 @@
     "sourceMap": true,
     "noImplicitAny": false,
     "module": "esnext",
+    "moduleResolution": "node",
     "target": "es5",
     "lib": [
       "es6",
