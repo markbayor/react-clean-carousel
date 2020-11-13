@@ -1,5 +1,3 @@
-# STILL IN PROGRESS. 
-
 # react-clean-carousel
 
 A simple carousel component with navigation and formattable styling.
@@ -11,6 +9,10 @@ import {
   Slide
 } from 'react-clean-carousel'
 
+import '../node_modules/react-clean-carousel/dist/main.css';
+.
+.
+.
 <Carousel>
   <Slide imageUrl="https://picsum.photos/900/400">
     children (whatever you want to put IN the slide e.g buttons, links, etc)
