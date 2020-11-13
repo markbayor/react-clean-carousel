@@ -11,7 +11,9 @@ const Slide = ({ style, imageUrl, children }: SlideProps) => {
   return (
     <div className='c-slide' style={style}>
       <img className='c-slide__img' src={imageUrl} />
-      {children}
+      <div className='c-slide__inner'>
+        {children}
+      </div>
     </div>
   )
 }

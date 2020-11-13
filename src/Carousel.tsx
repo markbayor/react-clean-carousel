@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { Arrows } from './components/Arrows'
 import { Dots } from './components/Dots'
 import { Slide } from './components/Slide'
+import {Slider} from './components/Slider'
 
 import './carousel.scss'
 
@@ -50,9 +51,9 @@ const Carousel = ({ size = 'large', children, arrowsNav = true, dotsNav = true, 
 
   return (
     <div style={mainStyle} className={`c-carousel c-carousel--${size}`}>
-      <div style={innerStyle} className="c-carousel__inner">
-        {children[currSlideIdx]}
-      </div>
+      <Slider style={innerStyle} currSlideIdx={currSlideIdx}>
+        {children}
+      </Slider>
       {arrowsNav && <Arrows amount={children.length} currSlideIdx={currSlideIdx} setCurrSlideIdx={setCurrSlideIdx} arrowsContainerStyle={arrowsContainerStyle} previousArrowStyle={previousArrowStyle} nextArrowStyle={nextArrowStyle} />}
       {dotsNav && <Dots amount={children.length} currSlideIdx={currSlideIdx} setCurrSlideIdx={setCurrSlideIdx} dotsContainerStyle={dotsContainerStyle} dotStyle={dotStyle} />}
     </div>
