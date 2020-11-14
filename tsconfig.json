@@ -26,7 +26,7 @@
     }
   },
   "include": [
-    "src/**/*"
+    "src/**/*", "stories"
   ],
   "exclude": [
     "stories",
