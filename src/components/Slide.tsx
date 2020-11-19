@@ -4,16 +4,19 @@ import './slide.scss';
 interface SlideProps {
   imageUrl: string;
   children: React.ReactNode | React.ReactNode[]
+  linkUrl?: string;
   style?: React.CSSProperties;
 }
 
-const Slide = ({ style, imageUrl, children }: SlideProps) => {
+const Slide = ({ style, linkUrl, imageUrl, children }: SlideProps) => {
   return (
     <div className='c-slide' style={style}>
-      <img className='c-slide__img' src={imageUrl} />
-      <div className='c-slide__inner'>
-        {children}
-      </div>
+      <a href={linkUrl} className='c-slide'>
+        <img className='c-slide__img' src={imageUrl} />
+      </a>
+        <div className='c-slide__inner'>
+          {children}
+        </div>
     </div>
   )
 }

@@ -11,10 +11,10 @@ export default {
 } as Meta;
 
 const Template: Story<CarouselProps> = (args) => <Carousel {...args}>
-  <Slide imageUrl="https://picsum.photos/900/400"><div className='c-slide--testdiv'>Hello there</div></Slide>
-  <Slide imageUrl="https://picsum.photos/901/400"><div className='c-slide--testdiv'>Hello there</div></Slide>
-  <Slide imageUrl="https://picsum.photos/902/400"><div className='c-slide--testdiv'>Hello there</div></Slide>
-  <Slide imageUrl="https://picsum.photos/903/400"><div className='c-slide--testdiv'>Hello there</div></Slide>
+  <Slide linkUrl='https://www.google.com' imageUrl="https://picsum.photos/900/400"><div className='c-slide--testdiv'>Hello there</div></Slide>
+  <Slide linkUrl='https://www.google.com' imageUrl="https://picsum.photos/901/400"><div className='c-slide--testdiv'>Hello there</div></Slide>
+  <Slide linkUrl='https://www.google.com' imageUrl="https://picsum.photos/902/400"><div className='c-slide--testdiv'>Hello there</div></Slide>
+  <Slide linkUrl='https://www.google.com' imageUrl="https://picsum.photos/903/400"><div className='c-slide--testdiv'>Hello there</div></Slide>
 </Carousel>
 
 export const Primary = Template.bind({});
