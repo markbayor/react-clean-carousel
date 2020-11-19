@@ -25,7 +25,7 @@ import '../node_modules/react-clean-carousel/dist/main.css';
 
 | Prop | Type | Default | Definition |
 |:----------------:|:------------------------------------------------:|:--------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| size | string | 'large' | Defines the size of the carousel. 'large' is the standard 1400px wide on a FullHD panel, while the others may be used for other use cases: 'verylarge', 'medium', 'small', 'verysmall', respectively.
+| size | string | 'large' | Defines the size of the carousel. 'large' is the standard 1400px wide on a FullHD panel, while the others may be used for other use cases: 'medium-large', 'medium', 'small', 'verysmall', respectively.
 | children | Slide[] | undefined | The slides that will be used in the carousel, each with their own props. |
 | autoplay? | boolean | true | Defines if the carousel should loop through the slides automatically. |
 | autoplayIntervalTime? | number | 5000 | The time between each slide changing to the next, defined in miliseconds. |
@@ -44,6 +44,7 @@ import '../node_modules/react-clean-carousel/dist/main.css';
 | Prop | Type | Default | Definition |
 |:----------------:|:------------------------------------------------:|:--------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 | imageUrl | string | undefined | The url for the background image of that slide. |
+| linkUrl? | string | undefined | A url you can add if you want the whole image of the slide to be a link|
 | children | React.ReactNode[] | undefined | Whatever JSX children you may want to pass into that slide to have (links, buttons, etc.) | 
 | style? | React.CSSProperties | undefined | Overrides the styling for the Slide container. |
 

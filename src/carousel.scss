@@ -1,14 +1,14 @@
 .c-carousel {
   position: relative;
 
-  &--verylarge {
-    width: 100rem;
-    height: 40rem;
-  }
-
   &--large {
     width: 98vw;
     height: 41vw;
+  }
+
+  &--medium-large {
+    width: 87vw;
+    height: 37vw;
   }
 
   &--medium {

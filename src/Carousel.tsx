@@ -7,7 +7,7 @@ import {Slider} from './components/Slider'
 
 import './carousel.scss'
 
-type size = 'verylarge' | 'large' | 'medium' | 'small' | 'verysmall'
+type size = 'large' | 'medium-large' | 'medium' | 'small' | 'verysmall'
 
 interface CarouselProps {
   size: size;
