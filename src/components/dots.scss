@@ -11,6 +11,11 @@
   margin-right: auto;
   top: 85%;
 
+  @media only screen and (max-width: 700px) {
+    top: 70%;
+    transform: scale(0.6);
+  }
+
   &__dot {
     margin: 1rem;
     padding: .3rem;
